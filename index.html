@@ -667,6 +667,13 @@
     .rules {
       display: table-row;
       background-color: #fff;
+      font-family: 'Arial', sans-serif;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 1;
+      text-align: center;
+      color: #222;
+      opacity: 0.6;
     }
 
     .rules .inner {
@@ -679,11 +686,6 @@
     }
 
     .rules p, .rules a {
-      font-family: 'Arial', sans-serif;
-      font-weight: normal;
-      font-size: 10px;
-      line-height: 1;
-      text-align: center;
       color: #222;
       opacity: 0.6;
     }
@@ -776,9 +778,7 @@
 </div>
 
 <div class="rules" id="foot">
-  <div class="inner blured footer-text">
 
-  </div>
 </div>
 
 <form class="form" name="frm_disabled" method="get" action="<%= (String)request.getSession().getAttribute(" urlLocation ") %>" onkeypress="if (event.keyCode == 13) return false;">
